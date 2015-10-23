@@ -97,9 +97,21 @@ public class TicketMachine
     }
     
     
+    /**
+     * Nos pida insertar el dinero correcto
+     */
     public void pront()
     {
         System.out.println("Please, inset the correct amount of money");
+    }
+    
+    
+    /**
+     * Imprime por pantalla el precio del ticket
+     */
+    public void showPrice()
+    {
+        System.out.println("The price of a ticket is " + price + " cents");
     }
   
     
