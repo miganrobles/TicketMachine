@@ -25,7 +25,7 @@ public class TicketMachine
      */
     public TicketMachine(int cost)
     {
-        price = 0;
+        price = cost;
         balance = 0;
         total = 0;
     }
@@ -95,4 +95,12 @@ public class TicketMachine
         // Clear the balance.
         balance = 0;
     }
+    
+    
+    public void pront()
+    {
+        System.out.println("Please, inset the correct amount of money");
+    }
+  
+    
 }
