@@ -25,7 +25,7 @@ public class TicketMachine
      */
     public TicketMachine(int cost)
     {
-        price = cost;
+        price = 0;
         balance = 0;
         total = 0;
     }
@@ -65,6 +65,16 @@ public class TicketMachine
         balance = balance + amount;
     }
 
+    
+    /**
+     * Modifica el valor price
+     */
+    public void setPrice(int newPrice)
+    {
+        price = newPrice;
+    }
+    
+    
     /**
      * Print a ticket.
      * Update the total collected and
